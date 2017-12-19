@@ -15,7 +15,7 @@ if($) {
 		
 	});
 	
-	$(window).on('beforeunload',function() {
+	$(window).on('unload', function() {
 		
 		var page_y = $(document).scrollTop();
 		//console.log(page_y);
