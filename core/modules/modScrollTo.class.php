@@ -96,7 +96,7 @@ class modScrollTo extends DolibarrModules
 		$this->dirs = array();
 
 		// Config pages. Put here list of php page, stored into scrollto/admin directory, to use to setup module.
-		$this->config_page_url = array("scrollto_setup.php@scrollto");
+		$this->config_page_url = array(); // "scrollto_setup.php@scrollto"
 
 		// Dependencies
 		$this->hidden = false;			// A condition to hide module
