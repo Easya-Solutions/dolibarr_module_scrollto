@@ -67,7 +67,7 @@ class modScrollTo extends DolibarrModules
 		// If file is in theme/yourtheme/img directory under name object_pictovalue.png, use this->picto='pictovalue'
 		// If file is in module/img directory under name object_pictovalue.png, use this->picto='pictovalue@module'
 		$this->picto='scrolltomodule@scrollto';
-
+		$this->editor_name = 'ATM Consulting';
 		// Defined all module parts (triggers, login, substitutions, menus, css, etc...)
 		// for default path (eg: /scrollto/core/xxxxx) (0=disable, 1=enable)
 		// for specific path of parts (eg: /scrollto/core/modules/barcode)
